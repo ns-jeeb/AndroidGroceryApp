@@ -67,10 +67,10 @@ public class PackageView extends LinearLayout implements Checkable {
 
         for (int i = 0; i < getChildCount(); i++) {
 
-            mHolder.chItem = (CheckBox) getChildAt(i);
-            if (mHolder.chItem != null) {
-                mHolder.chItem.setChecked(b);
-            }
+//            mHolder.chItem = (CheckBox) getChildAt(i);
+//            if (mHolder.chItem != null) {
+//                mHolder.chItem.setChecked(b);
+//            }
             Log.d("inside loop","is clicked");
         }
     }
