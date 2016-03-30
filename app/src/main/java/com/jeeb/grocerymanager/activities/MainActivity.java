@@ -30,6 +30,7 @@ import com.jeeb.grocerymanager.fragments.VegetableFragment;
 import com.jeeb.grocerymanager.data.DataParser;
 import com.jeeb.grocerymanager.R;
 import com.jeeb.grocerymanager.fragments.LambFragment;
+import com.jeeb.grocerymanager.model.Beef;
 
 import org.json.JSONArray;
 
@@ -67,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
 
         setContentView(R.layout.activity_main);
         String url = "https://api.mongolab.com/api/1/databases/grocery/collections/food/?apiKey=LcybTMW4H3ULBfJsl-ai7lrc1TwOR0U7";

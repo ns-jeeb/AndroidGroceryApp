@@ -52,7 +52,7 @@ public class MeatPartAdapter extends ArrayAdapter<String> {
         packageView.setTag(item);
         TextView mTxtGrocItem = (TextView)packageView.findViewById(R.id.txt_groc_item) ;
         ImageView imageView = (ImageView) packageView.findViewById(R.id.img_gro) ;
-        imageView.setImageResource(R.drawable.beeb_short_ribs);
+//        imageView.setImageResource(R.drawable.beeb_short_ribs);
         mTxtGrocItem.setText(item);
         packageView.setCheckedChangedListener(new PackageView.OnCheckedChangeListener() {
             @Override
