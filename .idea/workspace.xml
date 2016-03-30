@@ -10,75 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dbba4eb-9a75-4ad3-a900-4ec18c64d3d6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beeb_short_ribs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/beef_bottom_round_roast.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/beef_cheeks.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/beef_chuck_roas_or_steak.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/beef_chuck_roll_roast.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/beef_chuck_steak.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/beef_chuck_tender_roast.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/beef_cross_rib_roast.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/beef_flank_steak.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/beef_flap_meat.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/beef_ground.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/beef_loin_steak.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/beef_petite_sirloin_steak.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/beef_round_roast_crosscut.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/beef_rumb_roast.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/beef_shank.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/beef_short_lion_crosscut_steaks.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/beef_sirloin_tip_roast.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/beef_skirt_steak.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/beef_tenderloin.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/beef_top_round_roast.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/beef_tri_tip_roast.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/bone_roast.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/top_blade_roast.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/beef/top_sirloin_butt_roast.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/Base/Meat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/activities/AppSingleton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/adapters/GroceryAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/model/Beef.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/model/CustomPagerEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/model/Description.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_grocery.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/grocery_items.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/activities/VolleyApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/pork.jpg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/model/GroceryItem.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/model/Grocery.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jeeb/communityapp/MainFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jeeb/communityapp/MainFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/activities/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/activities/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/adapters/GroceryAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/adapters/GroceryAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/adapters/MeatPartAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/adapters/MeatPartAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/data/DataParser.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/data/DataParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/BakedFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/BakedFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/BeefFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/BeefFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/ChickenFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/ChickenFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/DairyFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/DairyFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/FruitFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/FruitFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/GoatFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/GoatFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/GrainFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/GrainFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/LambFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/LambFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/PackageView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/PackageView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/PorkFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/PorkFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/SeafoodFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/SeafoodFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/VegetableFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/VegetableFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/model/GroceryItem.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/model/GroceryItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/test.json" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/test.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/utils/AppUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/utils/AppUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/items.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/items.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
     </list>
     <ignored path="AndroidGroceryApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,12 +41,12 @@
             <file leaf-file-name="MeatPartAdapter.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/adapters/MeatPartAdapter.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.5">
-                    <caret line="53" column="39" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
+                  <state vertical-scroll-proportion="0.55263156">
+                    <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
                     <folding>
                       <element signature="imports" expanded="true" />
-                      <element signature="e#2259#2709#0" expanded="true" />
-                      <element signature="e#2708#2709#0" expanded="true" />
+                      <element signature="e#2261#2711#0" expanded="true" />
+                      <element signature="e#2710#2711#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -127,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/LambFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,14 +75,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/activities/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61165047">
-              <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding>
-                <element signature="e#5996#6641#0" expanded="true" />
-                <element signature="e#6640#6641#0" expanded="true" />
+                <element signature="e#6040#6685#0" expanded="true" />
+                <element signature="e#6684#6685#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Grocery.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/model/Grocery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+              <folding>
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,71 +142,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroceryAdapter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GroceryAdapter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/adapters/GroceryAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="84" column="38" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.5222552">
+              <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1717#2059#0" expanded="true" />
-                <element signature="e#2058#2059#0" expanded="true" />
-                <element signature="e#2670#2671#0" expanded="true" />
-                <element signature="e#2713#2714#0" expanded="true" />
-                <element signature="e#2792#2793#0" expanded="true" />
-                <element signature="e#2829#2830#0" expanded="true" />
-                <element signature="e#3492#3556#0" expanded="true" />
-                <element signature="e#3836#3895#0" expanded="true" />
-                <element signature="e#4155#4210#0" expanded="true" />
-                <element signature="e#4473#4528#0" expanded="true" />
-                <element signature="e#4785#4840#0" expanded="true" />
-                <element signature="e#5104#5159#0" expanded="true" />
-                <element signature="e#5426#5481#0" expanded="true" />
-                <element signature="e#5707#5762#0" expanded="true" />
+                <element signature="e#1709#2051#0" expanded="true" />
+                <element signature="e#2050#2051#0" expanded="true" />
+                <element signature="e#2662#2663#0" expanded="true" />
+                <element signature="e#2705#2706#0" expanded="true" />
+                <element signature="e#2784#2785#0" expanded="true" />
+                <element signature="e#2821#2822#0" expanded="true" />
+                <element signature="e#3456#3520#0" expanded="true" />
+                <element signature="e#3784#3843#0" expanded="true" />
+                <element signature="e#4087#4142#0" expanded="true" />
+                <element signature="e#4389#4444#0" expanded="true" />
+                <element signature="e#4685#4740#0" expanded="true" />
+                <element signature="e#4988#5043#0" expanded="true" />
+                <element signature="e#5294#5349#0" expanded="true" />
+                <element signature="e#5559#5614#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="values.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5238094">
-              <caret line="279" column="0" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grocery_items.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/grocery_items.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.984127">
-              <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/test.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.413794">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.171717">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="106" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -1779,7 +1689,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/data/DataParser.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/jeeb/communityapp/MainFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/test_activity.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/activities/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_grocery.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/view_blue.xml" />
@@ -1805,16 +1714,18 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/model/Description.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/LambFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/BeefFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/model/GroceryItem.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/PackageView.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/grocery_items.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/test.json" />
         <option value="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/adapters/GroceryAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/adapters/MeatPartAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/Base/Meat.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/model/Beef.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/activities/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/model/GroceryItem.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/model/Grocery.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/adapters/MeatPartAdapter.java" />
       </list>
     </option>
   </component>
@@ -2735,7 +2646,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905483" sideWeight="0.5203644" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5682614" sideWeight="0.48958334" order="12" side_tool="true" content_ui="tabs" x="1938" y="215" width="1884" height="571" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5682614" sideWeight="0.48958334" order="12" side_tool="true" content_ui="tabs" x="1938" y="215" width="1884" height="571" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34422404" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
@@ -3107,39 +3018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/model/GroceryItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-            <element signature="e#1093#1094#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/activities/AppSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3883495">
@@ -3213,30 +3091,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/adapters/GroceryAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="38" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1717#2059#0" expanded="true" />
-            <element signature="e#2058#2059#0" expanded="true" />
-            <element signature="e#2670#2671#0" expanded="true" />
-            <element signature="e#2713#2714#0" expanded="true" />
-            <element signature="e#2792#2793#0" expanded="true" />
-            <element signature="e#2829#2830#0" expanded="true" />
-            <element signature="e#3492#3556#0" expanded="true" />
-            <element signature="e#3836#3895#0" expanded="true" />
-            <element signature="e#4155#4210#0" expanded="true" />
-            <element signature="e#4473#4528#0" expanded="true" />
-            <element signature="e#4785#4840#0" expanded="true" />
-            <element signature="e#5104#5159#0" expanded="true" />
-            <element signature="e#5426#5481#0" expanded="true" />
-            <element signature="e#5707#5762#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/BeefFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3261,16 +3115,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/beeb_short_ribs.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/LambFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/Base/Meat.java">
@@ -3298,25 +3142,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/adapters/MeatPartAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/fragments/LambFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5">
-          <caret line="53" column="39" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2259#2709#0" expanded="true" />
-            <element signature="e#2708#2709#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61165047">
-          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
-            <element signature="e#5996#6641#0" expanded="true" />
-            <element signature="e#6640#6641#0" expanded="true" />
+            <element signature="e#6040#6685#0" expanded="true" />
+            <element signature="e#6684#6685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/model/Grocery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/adapters/MeatPartAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55263156">
+          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2261#2711#0" expanded="true" />
+            <element signature="e#2710#2711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jeeb/grocerymanager/adapters/GroceryAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5222552">
+          <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1709#2051#0" expanded="true" />
+            <element signature="e#2050#2051#0" expanded="true" />
+            <element signature="e#2662#2663#0" expanded="true" />
+            <element signature="e#2705#2706#0" expanded="true" />
+            <element signature="e#2784#2785#0" expanded="true" />
+            <element signature="e#2821#2822#0" expanded="true" />
+            <element signature="e#3456#3520#0" expanded="true" />
+            <element signature="e#3784#3843#0" expanded="true" />
+            <element signature="e#4087#4142#0" expanded="true" />
+            <element signature="e#4389#4444#0" expanded="true" />
+            <element signature="e#4685#4740#0" expanded="true" />
+            <element signature="e#4988#5043#0" expanded="true" />
+            <element signature="e#5294#5349#0" expanded="true" />
+            <element signature="e#5559#5614#0" expanded="true" />
           </folding>
         </state>
       </provider>

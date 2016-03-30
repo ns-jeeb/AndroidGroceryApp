@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Created by Jeeb on 2/11/2016.
  */
-public class GroceryItem {
+public class Grocery {
     private boolean mIsSelected;
     private String mNames;
     private String mTypes;
@@ -61,7 +61,7 @@ public class GroceryItem {
         mImageSrc = imageSrc;
     }
 
-    public GroceryItem() {
+    public Grocery() {
 
     }
 

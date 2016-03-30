@@ -12,7 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.jeeb.grocerymanager.R;
-import com.jeeb.grocerymanager.model.GroceryItem;
+import com.jeeb.grocerymanager.model.Grocery;
 import java.util.ArrayList;
 import static com.jeeb.grocerymanager.utils.AppUtils.*;
 
@@ -38,7 +38,7 @@ public class GroceryAdapter extends PagerAdapter {
         TextView txtTitleView = (TextView)viewGroup.findViewById(R.id.txt_title_grocery);
         ImageView imageView = (ImageView)viewGroup.findViewById(R.id.image_grocery);
         final CheckBox ch = (CheckBox)viewGroup.findViewById(R.id.checked_is_done);
-        GroceryItem groceItems = managingDataToView(position, collection);
+        Grocery groceItems = managingDataToView(position, collection);
         ch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
@@ -74,8 +74,8 @@ public class GroceryAdapter extends PagerAdapter {
         return view == object;
     }
 
-    public GroceryItem managingDataToView(int position, ViewGroup collection){
-        GroceryItem groceryItem = new GroceryItem();
+    public Grocery managingDataToView(int position, ViewGroup collection){
+        Grocery grocery = new Grocery();
         String words[];
         String title;
         if (!mGroceryItems.isEmpty()){
@@ -83,55 +83,55 @@ public class GroceryAdapter extends PagerAdapter {
             if (words[0].equalsIgnoreCase(KEY_BEEF) || words[0].equalsIgnoreCase(KEY_GOA) || words[0].equalsIgnoreCase(KEY_LAMB) ||
                     words[0].equalsIgnoreCase(KEY_PORK)) {
                 title = words[0].replace(words[0], "Meat");
-                groceryItem.setNames(words[1]);
-                groceryItem.setTitle(title);
-                groceryItem.setDesc(collection.getContext().getString(R.string.beef_beef_rump_roast));
-                groceryItem.setImageSrc(R.mipmap.fresh_meat_png);
+                grocery.setNames(words[1]);
+                grocery.setTitle(title);
+                grocery.setDesc(collection.getContext().getString(R.string.beef_beef_rump_roast));
+                grocery.setImageSrc(R.mipmap.fresh_meat_png);
 
             } else if (words[0].equalsIgnoreCase(KEY_BREAD)) {
-                groceryItem.setImageSrc(R.mipmap.baked_goods);
-                groceryItem.setTitle(words[0]);
-                groceryItem.setDesc(collection.getContext().getString(R.string.beef_bone_roast));
-                groceryItem.setNames(words[1]);
+                grocery.setImageSrc(R.mipmap.baked_goods);
+                grocery.setTitle(words[0]);
+                grocery.setDesc(collection.getContext().getString(R.string.beef_bone_roast));
+                grocery.setNames(words[1]);
 
             } else if (words[0].equalsIgnoreCase(KEY_CHICKEN)) {
-                groceryItem.setImageSrc(R.mipmap.chicken);
-                groceryItem.setTitle(words[0]);
-                groceryItem.setDesc(collection.getContext().getString(R.string.beef_cheeks));
-                groceryItem.setNames(words[1]);
+                grocery.setImageSrc(R.mipmap.chicken);
+                grocery.setTitle(words[0]);
+                grocery.setDesc(collection.getContext().getString(R.string.beef_cheeks));
+                grocery.setNames(words[1]);
 
             } else if (words[0].equalsIgnoreCase(KEY_GRAIN)) {
-                groceryItem.setImageSrc(R.mipmap.whole_grains);
-                groceryItem.setTitle(words[0]);
-                groceryItem.setDesc(collection.getContext().getString(R.string.beef_ground));
-                groceryItem.setNames(words[1]);
+                grocery.setImageSrc(R.mipmap.whole_grains);
+                grocery.setTitle(words[0]);
+                grocery.setDesc(collection.getContext().getString(R.string.beef_ground));
+                grocery.setNames(words[1]);
 
             } else if (words[0].equalsIgnoreCase(KEY_FRUIT)) {
-                groceryItem.setImageSrc(R.mipmap.fruits);
-                groceryItem.setTitle(words[0]);
-                groceryItem.setDesc(collection.getContext().getString(R.string.beef_ground));
-                groceryItem.setNames(words[1]);
+                grocery.setImageSrc(R.mipmap.fruits);
+                grocery.setTitle(words[0]);
+                grocery.setDesc(collection.getContext().getString(R.string.beef_ground));
+                grocery.setNames(words[1]);
 
             } else if (words[0].equalsIgnoreCase(KEY_VEGETABLE)) {
-                groceryItem.setImageSrc(R.mipmap.vegetable);
-                groceryItem.setTitle(words[0]);
-                groceryItem.setDesc(collection.getContext().getString(R.string.beef_ground));
-                groceryItem.setNames(words[1]);
+                grocery.setImageSrc(R.mipmap.vegetable);
+                grocery.setTitle(words[0]);
+                grocery.setDesc(collection.getContext().getString(R.string.beef_ground));
+                grocery.setNames(words[1]);
 
             } else if (words[0].equalsIgnoreCase(KEY_DAIRY)) {
-                groceryItem.setImageSrc(R.mipmap.variety_of_dairy);
-                groceryItem.setTitle(words[0]);
-                groceryItem.setDesc(collection.getContext().getString(R.string.beef_ground));
-                groceryItem.setNames(words[1]);
+                grocery.setImageSrc(R.mipmap.variety_of_dairy);
+                grocery.setTitle(words[0]);
+                grocery.setDesc(collection.getContext().getString(R.string.beef_ground));
+                grocery.setNames(words[1]);
 
             } else {
-                groceryItem.setImageSrc(R.mipmap.lamb_cuts_diargam);
-                groceryItem.setTitle(words[0]);
-                groceryItem.setDesc(collection.getContext().getString(R.string.beef_ground));
-                groceryItem.setNames(words[1]);
+                grocery.setImageSrc(R.mipmap.lamb_cuts_diargam);
+                grocery.setTitle(words[0]);
+                grocery.setDesc(collection.getContext().getString(R.string.beef_ground));
+                grocery.setNames(words[1]);
             }
         }
-        return groceryItem;
+        return grocery;
     }
 
 
