@@ -1,5 +1,9 @@
 package com.jeeb.grocerymanager.utils;
 
+import android.util.Log;
+
+import java.util.ArrayList;
+
 /**
  * Created by Jeeb on 2/5/2016.
  */
@@ -23,5 +27,9 @@ public class AppUtils {
     public static String KEY_SNACK = "Snack";
     public static String KEY_CAKES = "Cakes";
     public static String KEY_PASTRY = "Pastry";
+    public static String KEY_FILE = "myBlog.json";
+
+
+
 
 }

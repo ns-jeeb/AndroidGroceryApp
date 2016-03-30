@@ -1,20 +1,24 @@
 package com.jeeb.grocerymanager.model;
 
+import java.util.ArrayList;
+
 /**
  * Created by Jeeb on 2/11/2016.
  */
 public class GroceryItem {
     private boolean mIsSelected;
-    private String mName;
-
-    public void setName(String name) {
-        mName = name;
-    }
-
+    private String mNames;
+    private String mTypes;
+    private String mTitle;
+    private String mDesc;
     private int mImageSrc;
 
-    public GroceryItem(String name) {
-        mName = name;
+    public String getDesc() {
+        return mDesc;
+    }
+
+    public void setDesc(String desc) {
+        mDesc = desc;
     }
 
     public boolean isSelected() {
@@ -25,8 +29,28 @@ public class GroceryItem {
         mIsSelected = selected;
     }
 
-    public String getName() {
-        return mName;
+    public String getNames() {
+        return mNames;
+    }
+
+    public void setNames(String names) {
+        mNames = names;
+    }
+
+    public String getTypes() {
+        return mTypes;
+    }
+
+    public void setTypes(String types) {
+        mTypes = types;
+    }
+
+    public String getTitle() {
+        return mTitle;
+    }
+
+    public void setTitle(String title) {
+        mTitle = title;
     }
 
     public int getImageSrc() {
@@ -36,4 +60,10 @@ public class GroceryItem {
     public void setImageSrc(int imageSrc) {
         mImageSrc = imageSrc;
     }
+
+    public GroceryItem() {
+
+    }
+
+
 }

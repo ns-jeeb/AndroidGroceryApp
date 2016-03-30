@@ -4,6 +4,8 @@ import android.content.Context;
 import android.util.Log;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.jeeb.grocerymanager.model.Beef;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -126,10 +128,13 @@ public class DataParser {
 
 //    static String fileName = "myBlog.json";
 
-    public void saveData(Context context, String mJsonResponse, String fileName) {
+    public void saveData(Context context, List<String> items, String fileName) {
         try {
             FileWriter file = new FileWriter(context.getFilesDir().getPath() + "/" + fileName);
-            file.write(mJsonResponse);
+            Gson gson = new GsonBuilder().create();
+            String st = gson.toJson(items);
+            file.write(st);
+            Log.e("TAG", "JSON: " + st);
             file.flush();
             file.close();
         } catch (IOException e) {
@@ -140,7 +145,7 @@ public class DataParser {
     public String getData(Context context,String fileName) {
         try {
             File f = new File(context.getFilesDir().getPath() + "/" + fileName);
-            //check whether file exists
+
             FileInputStream is = new FileInputStream(f);
             int size = is.available();
             byte[] buffer = new byte[size];
@@ -152,13 +157,5 @@ public class DataParser {
             return null;
         }
     }
-    public void createJsonObject(ArrayList<String> items){
-        if (!items.isEmpty()){
-            for (String item: items){
-                String s = item;
-            }
-            Gson gson = new Gson();
-        }
 
-    }
 }

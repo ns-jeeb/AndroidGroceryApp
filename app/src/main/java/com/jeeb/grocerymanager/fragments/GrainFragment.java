@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AbsListView;
 import android.widget.ListView;
 
 import com.jeeb.grocerymanager.R;
@@ -27,8 +28,9 @@ public class GrainFragment extends Fragment {
         mItems = bundle.getStringArrayList(KEY_GRAIN);
         DataParser mDataParser = new DataParser();
         ArrayList<String>cleanedTexts = mDataParser.manganedBackedItems(mItems,KEY_GRAIN);
-        MeatPartAdapter adapter = new MeatPartAdapter(getActivity().getLayoutInflater(), cleanedTexts, mItems,R.mipmap.whole_grains);
+        MeatPartAdapter adapter = new MeatPartAdapter(getActivity().getLayoutInflater(),cleanedTexts, mItems,R.mipmap.whole_grains);
         ListView lv = (ListView) rootView.findViewById(R.id.grocery_items);
+        lv.setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE);
         lv.setAdapter(adapter);
         return rootView;
 

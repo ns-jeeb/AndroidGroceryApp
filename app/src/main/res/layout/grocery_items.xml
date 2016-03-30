@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jeeb.grocerymanager.fragments.PackageView
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/container_grocery_pater"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checked_is_done"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:id="@+id/txt_title_grocery"
+            android:text="Test"/>
+         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/txt_name_grocery"
+            android:text="Test"/>
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="200dp"
+        android:id="@+id/image_grocery"
+        android:src="@mipmap/vegetable"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:id="@+id/txt_dec_grocery"
+            android:text="Test"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:id="@+id/txt_nutrition_grocery"
+            android:text="Test"/>
+
+    </LinearLayout>
+
+</com.jeeb.grocerymanager.fragments.PackageView>

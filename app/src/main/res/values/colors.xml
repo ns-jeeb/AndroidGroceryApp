@@ -5,4 +5,7 @@
     <color name="colorAccent">#FF4081</color>
     <color name="greenVeg">#3FCC10</color>
     <color name="redMeat">#824141</color>
+    <color name="red">#824141</color>
+    <color name="orange">#FF4081</color>
+    <color name="blue">#303F9F</color>
 </resources>

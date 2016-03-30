@@ -1,5 +1,6 @@
 package com.jeeb.grocerymanager.activities;
 
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -8,6 +9,10 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
 import static com.jeeb.grocerymanager.utils.AppUtils.*;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
@@ -33,6 +38,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static Bundle mArgement;
     private PagerAdapter mMeatPagerAdapter, mVegeFruitAdapter;
     private ViewPager mMeatPager;
     private ViewPager mVegeFruitPager;
@@ -47,24 +53,30 @@ public class MainActivity extends AppCompatActivity {
     private List<String>vegeItems;
     private List<String>bakedItems;
     private List<String>fruitItems;
+    private DataParser mDataParser;
+    private ArrayList<Fragment>mFragments = new ArrayList<>();
+    private Button mBtn;
 
     public static Fragment saveData(Fragment fragment, String keyArg, ArrayList<String> items){
-        Bundle args = new Bundle();
-        args.putStringArrayList(keyArg, items);
-        fragment.setArguments(args);
+        mArgement = new Bundle();
+        mArgement.putStringArrayList(keyArg, items);
+        fragment.setArguments(mArgement);
         return fragment;
     }
-
+    TextView testView;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
         String url = "https://api.mongolab.com/api/1/databases/grocery/collections/food/?apiKey=LcybTMW4H3ULBfJsl-ai7lrc1TwOR0U7";
+        mBtn = (Button)findViewById(R.id.btn_create_list) ;
+        testView =(TextView)findViewById(R.id.tsTxt);
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(url, new Response.Listener<JSONArray>() {
             @Override
             public void onResponse(JSONArray response) {
-                DataParser dataParser = new DataParser();
-                List<String> mItems = dataParser.items(response);
+                mDataParser = new DataParser();
+                List<String> mItems = mDataParser.items(response);
 
                 beefItems = new ArrayList<>();
                 chicItems = new ArrayList<>();
@@ -130,6 +142,18 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 createdView();
+                mBtn.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        ArrayList<String>list = AppSingleton.getInstance().getGroceryList();
+                        testView.setText(list.toString());
+                        mDataParser.saveData(getApplicationContext(),AppSingleton.getInstance().getGroceryList(),KEY_FILE);
+                        Intent intent = new Intent(MainActivity.this, TestActivityForTest.class);
+                        intent.putStringArrayListExtra("GroceryList",list);
+                        startActivity(intent);
+                    }
+                });
+
             }
         }, new Response.ErrorListener() {
             @Override
@@ -137,7 +161,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-        VolleyApplication.getInstance().getRequestQueue().add(jsonArrayRequest);
+        AppSingleton.getInstance().getRequestQueue().add(jsonArrayRequest);
     }
     public void createdView(){
         TabLayout meatTabLayout = (TabLayout) findViewById(R.id.meat_tab_layout);
@@ -215,6 +239,7 @@ public class MainActivity extends AppCompatActivity {
 
                 case 0:
                     fragment = saveData(new BeefFragment(), KEY_BEEF    , (ArrayList<String>) beefItems);
+                    mFragments.add(fragment);
                     return fragment;
                 case 1:
                     fragment = saveData(new LambFragment(),   KEY_LAMB   , (ArrayList<String>) lambItems);

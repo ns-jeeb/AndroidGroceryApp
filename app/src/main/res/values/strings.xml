@@ -4,4 +4,32 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_template_step">my Text As Najeeb</string>
+    <string name="red">red</string>
+    <string name="blue">blue</string>
+    <string name="orange">orange</string>
+    <string name="beef_chuck_roll_roast_desc">This moderately priced roast offers an excellent combination of meat, fat and connective tissue. It not a bit tougher than the premium cuts but has better flavor</string>
+    <string name="beef_chuck_roast_steak_desc">Chuck Roast or Steak with no qualifiers is probably cut from directly below the shoulder blade at the front of the beast.</string>
+    <string name="beef_cross_rib_roast">Cut from the shoulder, this moderately priced roast is flavorful but somewhat tough, though not as tough as round</string>
+    <string name="beef_top_blade_roast">Cut from above the shoulder blade. The roast is a thick crosswise slice</string>
+    <string name="beef_bone_roast">Cut from right behind the arm roast</string>
+    <string name="beef_short_ribs">Short Ribs are also cut from other parts of the cow, but they are particularly meaty from this area ribs 1 though 5</string>
+    <string name="beef_rib_steak">These cuts come as bone-in Rib Steak and Boneless (Rib eye Steak). Other names are Spenser Steak, and sometimes Delmonico Steak</string>
+    <string name="beef_tenderloin">The Tenderloin muscle runs under (inside) the Top Loin muscle and extends into the Sirloin cut</string>
+    <string name="beef_short_loin_crosscut_steak">This steak is a crosscut of the Short Loin, meaning it includes both the Top Loin muscle and the Tenderloin muscle in a single steak</string>
+    <string name="beef_t_bone_steak">It differs from the Porterhouse in being a little thinner and including a narrower width of Tenderloin (0.5 inch minimum)</string>
+    <string name="beef_strip_lion_steak">This is like a Crosscut, but stops at the bone and includes no meat from the tenderloin side.</string>
+    <string name="beef_top_sirloin_butt_roast">This is like a Crosscut, but stops at the bone and includes no meat from the tenderloin side.</string>
+    <string name="beef_tri_tip_roast">This is an elongated, triangular cut from the bottom of the Sirloin adjacent to the Flank and Round.</string>
+    <string name="beef_petite_sirloin_steak">This is an elongated, triangular cut from the bottom of the Sirloin adjacent to the Flank and Round.</string>
+    <string name="beef_round_roast_crosscut">This is a slab cut from the big end of the round. It includes the Top Round, Bottom Round and Eye of round. </string>
+    <string name="beef_beef_rump_roast">This roast or steak is cut across the whole round, with the bone included or removed. It includes the Bottom Round, Top Round and Eye of Round. </string>
+    <string name="beef_bottom_round_roast">This is the outer muscle of the upper rear leg. It is very lean, and though it is not actually tough as shoe leather, it certainly is not tender. Best braised or long simmered.</string>
+    <string name="beef_top_round_roast">This is the inside leg muscle, opposite the Bottom Round. Top Round Steaks are thick slices cut crosswise from the roast. </string>
+    <string name="beef_sirloin_tip_roast">These are cut is from the Knuckle (see above) which is the front side of the leg from the hip to the knee and is somewhat more tender than the other Round cuts which come from the back of the leg</string>
+    <string name="beef_ground">Ground beef can be made from any meaty part of the cow that is free of bones</string>
+    <string name="beef_skirt_steak">This cut is from right behind the brisket and at the bottom end of the ribs.</string>
+    <string name="beef_flap_meat">The Flank is a relatively thin region below the Short Loin. Cuts from here used to be cheap, but no longer.</string>
+    <string name="beef_flank_steak">This cut is very lean with medium flavor and is medium tough</string>
+    <string name="beef_shank">Center cut Beef Shanks (photo specimen) are great for beef soups and stews</string>
+    <string name="beef_cheeks">This cut is very highly regarded in Italy and France, and is strongly favored for BBQ in Mexico. It is very tough and shot through with connective tissue</string>
 </resources>
